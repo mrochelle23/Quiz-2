@@ -23,7 +23,6 @@ def swapi():
         context = {
         'record': record,
         }
-        print(record)
         return render_template('swapi_results.html', **context)
     else:
         context = {
